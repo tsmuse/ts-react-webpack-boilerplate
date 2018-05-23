@@ -1,0 +1,22 @@
+//Variables
+$base-font-size: 16px;
+$body-face: 'sans-serif';
+$title-face: 'serif';
+
+// Global styles
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: $base-font-size;
+  font-family: $body-face;
+}
+
+// Example styles
+h1 {
+  font-family: $title-face;
+  color: blue;
+}
+
+@import 'Components/ReactHotReloadExample/ReactHotReloadExample';
